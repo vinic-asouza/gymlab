@@ -77,7 +77,7 @@ export const Actions = styled.div`
 
   button {
     margin-right: 10px;
-    background: #1E90FF;
+    background: #008B8B;
     color: #fff;
   }
 
@@ -136,7 +136,7 @@ export const Aux = styled.div`
         margin: 0 5px 10px;
 
         border: 1px solid rgba(224, 224, 224, 1);
-        /* border-bottom: 1px solid #1E90FF; */
+        /* border-bottom: 1px solid #008B8B; */
 
         &::placeholder {
           color: rgba(0, 0, 0, 0.3);
@@ -154,7 +154,7 @@ export const Aux = styled.div`
         margin: 0 5px 10px;
 
         border: 1px solid rgba(224, 224, 224, 1);
-        /* border-bottom: 1px solid #1E90FF; */
+        /* border-bottom: 1px solid #008B8B; */
 
         &::placeholder {
           color: rgba(0, 0, 0, 0.3);
@@ -173,7 +173,7 @@ export const Aux = styled.div`
     button {
       margin: 5px 0 0;
       height: 44px;
-      background: #1E90FF;
+      background: #008B8B;
       font-weight: bold;
       color: #fff;
       border: 0;
@@ -182,7 +182,7 @@ export const Aux = styled.div`
       transition: background 0.2;
 
       &:hover {
-        background: ${darken(0.05, '#1E90FF')};
+        background: ${darken(0.05, '#008B8B')};
       }
     }
 

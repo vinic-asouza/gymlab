@@ -1,12 +1,12 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Form, Input } from '@rocketseat/unform';
 import * as Yup from 'yup';
 
 import { signInRequest } from '~/store/modules/auth/actions';
 
-import { MdFitnessCenter, MdAccountCircle } from 'react-icons/md';
+import { MdFitnessCenter } from 'react-icons/md';
 
 const schema = Yup.object().shape({
   email: Yup.string()
@@ -25,9 +25,9 @@ export default function SignIn() {
 
   return (
     <>
-      <MdAccountCircle color="#FFF" size={100} />
-      <h1>CRUD Example</h1>
-      <h3>React Application</h3>
+      <MdFitnessCenter color="#FFF" size={100} />
+      <h1>GYMLAB</h1>
+      <h3>Gym Manager</h3>
 
       <Form schema={schema} onSubmit={handleSubmit}>
         <Input name="email" type="email" placeholder="Email" />

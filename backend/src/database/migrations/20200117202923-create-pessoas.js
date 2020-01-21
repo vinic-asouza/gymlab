@@ -56,6 +56,11 @@ module.exports = {
                 allowNull: true,
                 unique: true,
             },
+            email: {
+                type: Sequelize.STRING,
+                allowNull: true,
+                unique: true,
+            },
             created_at: {
                 type: Sequelize.DATE,
                 allowNull: false,

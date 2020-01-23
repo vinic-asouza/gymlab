@@ -7,7 +7,7 @@ import { Form, Input, Select } from '@rocketseat/unform';
 import * as Yup from 'yup';
 import Fab from '@material-ui/core/Fab';
 import { Edit, Check } from '@material-ui/icons';
-import { SmallContent, Actions, Aux } from '../../pages/Main/styles';
+import { SmallContent, Actions, Aux } from '../../pages/_layouts/default/styles';
 import api from '../../services/api';
 import { createPessoaRequest } from '../../store/modules/pessoa/actions';
 
@@ -49,7 +49,7 @@ export default function CadastraPessoa() {
     <SmallContent grid="4">
       <Actions>
         <Edit />
-        <h1>Nova Pessoa</h1>
+        <h1>Cadastrar Aluno</h1> <br/>
       </Actions>
       <Aux>
         <Form onSubmit={handleSubmit}>

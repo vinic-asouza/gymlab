@@ -8,7 +8,7 @@ import TableRow from '@material-ui/core/TableRow';
 import { Visibility } from '@material-ui/icons';
 import moment from 'moment';
 import 'moment/locale/pt-br';
-import { SmallContent, Actions, Aux } from '../../pages/Main/styles';
+import { SmallContent, Actions, Aux } from '../../pages/_layouts/default/styles';
 
 import api from '../../services/api';
 

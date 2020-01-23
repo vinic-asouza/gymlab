@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { Form, Input } from '@rocketseat/unform';
 // import * as Yup from 'yup';
 import { Edit } from '@material-ui/icons';
-import { Container, MainContent, Actions, Aux } from '../../pages/Main/styles';
+import { Container, MainContent, Actions, Aux } from '../../pages/_layouts/default/styles';
 import { signUpRequest } from '../../store/modules/auth/actions';
 
 import { MdFitnessCenter } from 'react-icons/md';

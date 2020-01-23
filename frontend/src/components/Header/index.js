@@ -16,9 +16,10 @@ export default function Header() {
         <nav>
           <MdFitnessCenter color="#008B8B" size={40} />
           <Link to="/pessoas">ALUNOS</Link>
-          <Link to="/modalidades">MODALIDADES E PLANOS</Link>
-          <Link to="/gestao">GESTÃO</Link>
-          <Link to="/atendimento">ATENDIMENTO</Link>
+          <Link to="/matriculas">MATRICULAS</Link>
+          <Link to="/planos">PLANOS</Link>
+          <Link to="/modalidades">MODALIDADES</Link>
+          <Link to="/acompanhamento">ACOMPANHAMENTO</Link>
           <Link to="/register">USUÁRIOS</Link>
         </nav>
 

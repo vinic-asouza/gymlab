@@ -10,7 +10,7 @@ import { Edit } from '@material-ui/icons';
 
 import api from '../../services/api';
 
-import { SmallContent, Actions, Aux } from '../../pages/Main/styles';
+import { SmallContent, Actions, Aux } from '../../pages/_layouts/default/styles';
 
 import { updatePessoaRequest } from '../../store/modules/pessoa/actions';
 

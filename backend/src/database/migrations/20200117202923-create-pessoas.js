@@ -23,10 +23,10 @@ module.exports = {
                 type: Sequelize.STRING,
                 allowNull: false,
             },
-            // cep: {
-            //     type: Sequelize.STRING,
-            //     allowNull: false,
-            // },
+            cep: {
+                type: Sequelize.STRING,
+                allowNull: true,
+            },
             rua: {
                 type: Sequelize.STRING,
                 allowNull: false,
@@ -37,7 +37,7 @@ module.exports = {
             },
             bairro: {
                 type: Sequelize.STRING,
-                allowNull: false,
+                allowNull: true,
             },
             cidade: {
                 type: Sequelize.STRING,
@@ -50,11 +50,6 @@ module.exports = {
             celular: {
                 type: Sequelize.STRING,
                 allowNull: true,
-            },
-            email: {
-                type: Sequelize.STRING,
-                allowNull: true,
-                unique: true,
             },
             email: {
                 type: Sequelize.STRING,

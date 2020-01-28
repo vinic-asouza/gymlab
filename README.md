@@ -98,4 +98,6 @@ Desenvolvido em React + Redux.
 
 # Imagens:
 
+![Screenshot from 2020-01-27 21-40-19](https://user-images.githubusercontent.com/32015296/73226138-bdc03900-414d-11ea-9fed-1b1132421fd6.png)
+
 

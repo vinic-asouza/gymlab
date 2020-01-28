@@ -7,6 +7,8 @@ class Plano extends Model {
             {
                 descricao: Sequelize.STRING,
                 valor: Sequelize.REAL,
+                created_at: Sequelize.DATE,
+                updated_at: Sequelize.DATE
             },
             {
                 sequelize,

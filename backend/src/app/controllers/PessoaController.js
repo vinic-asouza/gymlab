@@ -8,11 +8,11 @@ import Pessoa from '../models/Pessoa';
 class PessoaController {
     async find(req, res) {
 
-        const pessoas = await Pessoa.findOne({
+        const pessoa = await Pessoa.findOne({
             where: { id: req.params.id },
         });
 
-        return res.json(pessoas);
+        return res.json(pessoa);
     }
 
     async index(req, res) {
